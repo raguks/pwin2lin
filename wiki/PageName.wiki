@@ -1,8 +1,6 @@
-#summary One-sentence summary of this page.
-
 = Introduction =
 
-Help for running pwin2lin.pl to convert PuTTY sessions.
+Help for running pwin2lin.pl to convert PuTTY sessions from Windows to Linux.
 
 
 = Details =
