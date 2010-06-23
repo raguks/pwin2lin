@@ -2,18 +2,18 @@
 
 = Introduction =
 
-Running the script
+Help for running pwin2lin.pl to convert PuTTY sessions.
 
 
 = Details =
 
- Export the PuTTY registry settings from Windows:
- Start->Run->regedit
- HKEY_CURRENT_USER\Software\SimonTatham\
- Right click PuTTY and choose 'Export'. Save the registry file to your Linux machine and run this script from a shell (chmod 755 first):
+Export the PuTTY registry settings from Windows:
+Start->Run->regedit
+HKEY_CURRENT_USER\Software\SimonTatham\
+Right click PuTTY and choose 'Export'. Save the registry file to your Linux machine and run this script from a shell (chmod 755 first):
  ./pwin2lin.pl
 
- Examples:
+Examples:
   Running the script alone:
     foo\@bar:~\$ ./pwin2lin.pl
 
