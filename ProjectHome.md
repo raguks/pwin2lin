@@ -1,0 +1,1 @@
+A simple PERL script to convert Windows PuTTY sessions to Linux PuTTY sessions.
