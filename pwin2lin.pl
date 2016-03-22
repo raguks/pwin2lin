@@ -3,13 +3,14 @@
 # Dan Witt
 # 5/28/2010
 # Convert Windows PuTTY sessions to Linux
+# Ragu only edited Dan Witt's script to work on KiTTY session registry
 
 #How to use pwin2lin.pl
 sub help {
 print<<HELP
  Export the PuTTY registry settings from Windows:
  Start->Run->regedit
- HKEY_CURRENT_USER\\Software\\SimonTatham\\
+ HKEY_CURRENT_USER\\Software\\9bis.com\\
  Right click PuTTY and choose 'Export'. Save the registry file to your Linux machine and run this script from a shell (chmod 755 first):
  ./pwin2lin.pl
 
